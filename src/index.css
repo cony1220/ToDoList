@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(16, 25, 54);
+    color:white;
+    font-size:20px;
+    font-family:cursive;
+}
+input{
+    border-radius:5px;
+}
+.header{
+    font-size:24px;
+}
+.main-container{
+    height:200px;
+    display:grid;
+    justify-content:center;
+    align-content:center;
+    border:1px solid gold;
+    border-radius:5px;
+    margin-top:5px;
+}
+.btn-container{
+    text-align:center;
+    margin-top:5px;
+}
+button{
+    background-color: rgb(41, 73, 121);
+    color:gold;
+    border-radius:5px;
+}
+.content-container{
+    display:grid;
+    justify-content:center;
+    justify-items:center;
+    align-items:center;
+    margin:10px;
+}
+.Todolist-container{
+    width:300px;
+    height:200px;
+    background-color:aliceblue;
+    border-radius:5px;
+    margin:10px;
+    color:rgb(16, 25, 54);
+    overflow-y:overlay;
+}
+.Todolist-container::-webkit-scrollbar{
+    width: 7px;
+}
+.Todolist-container::-webkit-scrollbar-button{
+    background: transparent;
+    border-radius: 4px;
+}
+.Todolist-container::-webkit-scrollbar-track-piece{
+    background: transparent;
+}
+.Todolist-container::-webkit-scrollbar-thumb{
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 1px solid slategrey;
+}
+.Todolist-container::-webkit-scrollbar-track{
+    box-shadow: transparent;
+}
+.item-container{
+    display:grid;
+    justify-content:center;
+    grid-template-columns:200px 60px;
+    margin:10px;
+}
