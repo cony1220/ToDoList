@@ -1,5 +1,4 @@
 import React from "react";
-import Header from "./Header";
 function Welcome(){
     return (
         <main className="main-container">
@@ -9,12 +8,4 @@ function Welcome(){
         </main>
     );
 }
-function Homepage(){
-    return(
-        <div>
-            <Header />
-            <Welcome />
-        </div>
-    );
-}
-export default Homepage;
+export default Welcome;

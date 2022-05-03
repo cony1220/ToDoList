@@ -7,7 +7,7 @@ module.exports={
         path:path.resolve(__dirname, "public")
     },
     devServer:{
-        static:"./dist"
+        static:"./public"
     },
     module:{
         rules:[
